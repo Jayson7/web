@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Jayson - Contact us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="javascript.css" rel="stylesheet">
+    <script src="javascript.js"></script>
+</head>
+<header>
+    <h1 class="contact"> Contact us</h1>
+</header>
+
+<body>
+
+    <div class="welcome">
+        <h2> Welcome to our brand</h2>
+        <h4> How can we help?. </h4>
+    </div>
+    <br>
+    <script>
+        var msg = new SpeechSynthesisUtterance();
+        msg.text = "And jesus wept";
+        window.SpeechSynthesis.speak(msg);
+    </script>
+    <section>
+
+        <div id="form">
+            <form action="">
+                <label for="name">First Name: </label>
+                <input type="text" required name="name" value="" placeholder="Firstname"><br><br>
+
+                <label for="Lname">Last Name: </label>
+                <input type="text" required name="Lname" value="" placeholder="Lastname"><br><br>
+                <label for="othername">Other Name: </label>
+                <input type="text" required name="othername" value="" placeholder="Othernames"><br><br>
+
+                <label for="">Middle Name: </label>
+                <input required type="text" name="" value="" placeholder="Middlename"><br><br>
+
+                <label for="Moname">Mother's Name: </label>
+                <input required type="text" name="Moname" value="" placeholder="Middlename"><br><br>
+
+                <button type="submit" onmouseover="loaderr()"> submit</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

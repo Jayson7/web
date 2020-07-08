@@ -1,0 +1,29 @@
+body {
+    background-image: url(eagle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 800;
+    padding-right: 400px;
+}
+
+.nav-item {
+    padding-left: 80px;
+}
+
+.nav-item:hover {
+    font-size: larger;
+}
+
+.landing {
+    position: relative;
+    top: 400px;
+    color: rgb(47, 0, 255);
+}

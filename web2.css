@@ -1,0 +1,50 @@
+.main-container {
+    border: 0px solid grey;
+    width: 600px;
+    height: 300px;
+    box-sizing: content-box;
+    background-color: lawngreen;
+    overflow: hidden;
+    transform: translate(50px, 50px);
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-born {
+    border: 0px solid white;
+    width: 250px;
+    height: 120px;
+    top: -34px;
+    left: 40px;
+    background-color: white;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.second-born {
+    border: 0px solid white;
+    width: 250px;
+    height: 120px;
+    bottom: -34px;
+    left: 40px;
+    background-color: white;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.third-born {
+    border: 0px solid white;
+    width: 350px;
+    height: 120px;
+    top: 90px;
+    right: -30px;
+    background-color: white;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 50px;
+}

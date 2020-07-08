@@ -1,0 +1,86 @@
+* {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.landing {
+    font-size: 30px;
+    line-height: 1.3;
+    position: relative;
+    animation-name: landing;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+@keyframes landing {
+    0% {
+        top: 2000px;
+    }
+    75% {
+        transform: rotateX(180deg);
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.content {
+    position: relative;
+    top: 300px;
+    line-height: 2;
+    text-align: center;
+    animation-name: content;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    font-size: 30px;
+}
+
+@keyframes content {
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.btn {
+    position: relative;
+    top: 500px;
+    border: 5px solid #d82626;
+    background-color: #961b1b;
+    padding: 1em 2em;
+    border-radius: 10px;
+    color: aqua;
+    transition-property: transform;
+    animation-name: btn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    text-decoration: none;
+    opacity: 0;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    transition-duration: 2s;
+    font-size: 15px;
+}
+
+.btn:hover {
+    transform: rotateZ(180deg);
+}
+
+@keyframes btn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

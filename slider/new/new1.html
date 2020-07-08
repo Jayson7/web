@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JaySon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid navs">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span> 
+      </button>
+                <a class="navbar-brand" href="#">JaySonTech.com</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">INFORMATION <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">HOW-TO</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ADMIN</a></li>
+                    <li><a href="#">ICON</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        .active {
+            padding-left: 100px;
+        }
+        
+        li {
+            padding-right: 100px;
+        }
+        
+        form {
+            margin-top: 100px;
+        }
+        
+        body {
+            background-image: url(jaay.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .navbar {
+            background-color: green;
+        }
+    </style>
+    <div class="container text-center  text-warning" id="welcome">
+        <h1 class="f"> Welcome to JaysonTech.com</h1>
+    </div>
+    <section>
+        <form>
+            <div class="form-row-auto">
+                <div class="form-group row-auto">
+                    <label for="name">First name</label>
+                    <input type="Name" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-row-auto">
+                    <div class="form-group row-auto">
+                        <label for="name">Last name</label>
+                        <input type="name" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-row-auto">
+                        <div class="form-group row-auto">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group row-auto">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group row-auto">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group row-auto">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row-auto">
+                        <div class="form-group row-auto">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group row-auto">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+                        </div>
+                        <div class="form-group row-auto">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+
+
+        </form>
+
+    </section><br>
+    <section>
+        <button type="submit" class="btn btn-warning ">Sign in</button>
+    </section>
+
+</html>
